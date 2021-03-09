@@ -1,22 +1,22 @@
-package com.cms.mng.login.web;
+package com.cms.login.web;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.cms.mng.login.service.MngLoginService;
+import com.cms.login.service.LoginService;
 
 @Controller
-public class MngLoginController {
+public class LoginController {
 	
-	@Resource(name = "mngLoginService")
-	private MngLoginService mngLoginService;
+	@Resource(name = "loginService")
+	private LoginService loginService;
 	
 	@RequestMapping(value = "/index.do")
 	public String loginPage() {
 		
-		return "cms/mng/login/MngLoginPage";
+		return "cms/login/login";
 	}
 
 }
