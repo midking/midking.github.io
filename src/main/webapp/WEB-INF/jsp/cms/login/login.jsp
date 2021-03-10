@@ -27,7 +27,7 @@
 				$("#saveId").prop("checked", true);
 			}
 				
-			// 엔터키로 로그인
+			// 사용자 아이디, 비밀번호 입력 후 엔터 누르면 로그인
 			$($("#userId"), $("#password")).on("keydown", function(e){
 				if (e.keyCode == 13) {
 		            e.preventDefault();
@@ -55,7 +55,8 @@
 		// 로그인
 		function login(){
 			if(validateLogin()){
-				// 쿠키에 아이디 저장
+				// 아이디 저장 체크 - 쿠키에 아이디 저장
+				// 아이디 저장 비체크 - 아이디 쿠키 삭제
 				if($("#saveId").is(":checked")){
 		    		if(!getCookie("userId")){
 				    	setCookie("userId", $("#userId").val(), 30);		    				    			
@@ -73,7 +74,7 @@
 						if(result){
 							alert(result + "님 로그인 성공");
 						} else{
-							alert("로그인 실패");						
+							alert("로그인 실패");
 						}
 					},
 					error : function(e){
