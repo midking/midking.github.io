@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-check-name: 'icon_check';
+$icon-check-x: 69px;
+$icon-check-y: 0px;
+$icon-check-offset-x: -69px;
+$icon-check-offset-y: 0px;
+$icon-check-width: 10px;
+$icon-check-height: 8px;
+$icon-check-total-width: 79px;
+$icon-check-total-height: 64px;
+$icon-check-image: '../images/sprite/sprite_all.png';
+$icon-check: (69px, 0px, -69px, 0px, 10px, 8px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_check', );
+$icon-clear-name: 'icon_clear';
+$icon-clear-x: 0px;
+$icon-clear-y: 0px;
+$icon-clear-offset-x: 0px;
+$icon-clear-offset-y: 0px;
+$icon-clear-width: 22px;
+$icon-clear-height: 22px;
+$icon-clear-total-width: 79px;
+$icon-clear-total-height: 64px;
+$icon-clear-image: '../images/sprite/sprite_all.png';
+$icon-clear: (0px, 0px, 0px, 0px, 22px, 22px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_clear', );
+$icon-close-survey-name: 'icon_close_survey';
+$icon-close-survey-x: 47px;
+$icon-close-survey-y: 0px;
+$icon-close-survey-offset-x: -47px;
+$icon-close-survey-offset-y: 0px;
+$icon-close-survey-width: 18px;
+$icon-close-survey-height: 18px;
+$icon-close-survey-total-width: 79px;
+$icon-close-survey-total-height: 64px;
+$icon-close-survey-image: '../images/sprite/sprite_all.png';
+$icon-close-survey: (47px, 0px, -47px, 0px, 18px, 18px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_close_survey', );
+$icon-excel-name: 'icon_excel';
+$icon-excel-x: 0px;
+$icon-excel-y: 48px;
+$icon-excel-offset-x: 0px;
+$icon-excel-offset-y: -48px;
+$icon-excel-width: 15px;
+$icon-excel-height: 16px;
+$icon-excel-total-width: 79px;
+$icon-excel-total-height: 64px;
+$icon-excel-image: '../images/sprite/sprite_all.png';
+$icon-excel: (0px, 48px, 0px, -48px, 15px, 16px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_excel', );
+$icon-file01-name: 'icon_file01';
+$icon-file01-x: 19px;
+$icon-file01-y: 48px;
+$icon-file01-offset-x: -19px;
+$icon-file01-offset-y: -48px;
+$icon-file01-width: 9px;
+$icon-file01-height: 10px;
+$icon-file01-total-width: 79px;
+$icon-file01-total-height: 64px;
+$icon-file01-image: '../images/sprite/sprite_all.png';
+$icon-file01: (19px, 48px, -19px, -48px, 9px, 10px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_file01', );
+$icon-file-add-name: 'icon_file_add';
+$icon-file-add-x: 42px;
+$icon-file-add-y: 26px;
+$icon-file-add-offset-x: -42px;
+$icon-file-add-offset-y: -26px;
+$icon-file-add-width: 17px;
+$icon-file-add-height: 17px;
+$icon-file-add-total-width: 79px;
+$icon-file-add-total-height: 64px;
+$icon-file-add-image: '../images/sprite/sprite_all.png';
+$icon-file-add: (42px, 26px, -42px, -26px, 17px, 17px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_file_add', );
+$icon-file-remove-name: 'icon_file_remove';
+$icon-file-remove-x: 21px;
+$icon-file-remove-y: 26px;
+$icon-file-remove-offset-x: -21px;
+$icon-file-remove-offset-y: -26px;
+$icon-file-remove-width: 17px;
+$icon-file-remove-height: 17px;
+$icon-file-remove-total-width: 79px;
+$icon-file-remove-total-height: 64px;
+$icon-file-remove-image: '../images/sprite/sprite_all.png';
+$icon-file-remove: (21px, 26px, -21px, -26px, 17px, 17px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_file_remove', );
+$icon-first-name: 'icon_first';
+$icon-first-x: 32px;
+$icon-first-y: 48px;
+$icon-first-offset-x: -32px;
+$icon-first-offset-y: -48px;
+$icon-first-width: 10px;
+$icon-first-height: 9px;
+$icon-first-total-width: 79px;
+$icon-first-total-height: 64px;
+$icon-first-image: '../images/sprite/sprite_all.png';
+$icon-first: (32px, 48px, -32px, -48px, 10px, 9px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_first', );
+$icon-last-name: 'icon_last';
+$icon-last-x: 46px;
+$icon-last-y: 48px;
+$icon-last-offset-x: -46px;
+$icon-last-offset-y: -48px;
+$icon-last-width: 10px;
+$icon-last-height: 9px;
+$icon-last-total-width: 79px;
+$icon-last-total-height: 64px;
+$icon-last-image: '../images/sprite/sprite_all.png';
+$icon-last: (46px, 48px, -46px, -48px, 10px, 9px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_last', );
+$icon-link-download-name: 'icon_link_download';
+$icon-link-download-x: 0px;
+$icon-link-download-y: 26px;
+$icon-link-download-offset-x: 0px;
+$icon-link-download-offset-y: -26px;
+$icon-link-download-width: 17px;
+$icon-link-download-height: 18px;
+$icon-link-download-total-width: 79px;
+$icon-link-download-total-height: 64px;
+$icon-link-download-image: '../images/sprite/sprite_all.png';
+$icon-link-download: (0px, 26px, 0px, -26px, 17px, 18px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_link_download', );
+$icon-next-name: 'icon_next';
+$icon-next-x: 69px;
+$icon-next-y: 12px;
+$icon-next-offset-x: -69px;
+$icon-next-offset-y: -12px;
+$icon-next-width: 5px;
+$icon-next-height: 9px;
+$icon-next-total-width: 79px;
+$icon-next-total-height: 64px;
+$icon-next-image: '../images/sprite/sprite_all.png';
+$icon-next: (69px, 12px, -69px, -12px, 5px, 9px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_next', );
+$icon-prev-name: 'icon_prev';
+$icon-prev-x: 69px;
+$icon-prev-y: 25px;
+$icon-prev-offset-x: -69px;
+$icon-prev-offset-y: -25px;
+$icon-prev-width: 5px;
+$icon-prev-height: 9px;
+$icon-prev-total-width: 79px;
+$icon-prev-total-height: 64px;
+$icon-prev-image: '../images/sprite/sprite_all.png';
+$icon-prev: (69px, 25px, -69px, -25px, 5px, 9px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_prev', );
+$icon-remove-name: 'icon_remove';
+$icon-remove-x: 26px;
+$icon-remove-y: 0px;
+$icon-remove-offset-x: -26px;
+$icon-remove-offset-y: 0px;
+$icon-remove-width: 17px;
+$icon-remove-height: 21px;
+$icon-remove-total-width: 79px;
+$icon-remove-total-height: 64px;
+$icon-remove-image: '../images/sprite/sprite_all.png';
+$icon-remove: (26px, 0px, -26px, 0px, 17px, 21px, 79px, 64px, '../images/sprite/sprite_all.png', 'icon_remove', );
+$spritesheet-width: 79px;
+$spritesheet-height: 64px;
+$spritesheet-image: '../images/sprite/sprite_all.png';
+$spritesheet-sprites: ($icon-check, $icon-clear, $icon-close-survey, $icon-excel, $icon-file01, $icon-file-add, $icon-file-remove, $icon-first, $icon-last, $icon-link-download, $icon-next, $icon-prev, $icon-remove, );
+$spritesheet: (79px, 64px, '../images/sprite/sprite_all.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
