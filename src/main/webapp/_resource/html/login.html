@@ -1,13 +1,49 @@
-<!--#include file="include/_dtd.html" -->
-<title>layout</title>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<!-- 기본 meta -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- //기본 meta -->
+
+	<!-- 선행 script -->
+	<script src=""></script> <!-- 퍼블 -->
+	<script src=""></script> <!-- 개발 -->
+	<!-- //선행 script -->
+
+	<!-- stylesheet : @import 시키지 않는게 성능상 좋습니다. -->
+	<link rel="stylesheet" href="../../_resource/css/style.css">
+	<!-- //stylesheet -->
+	<title>login</title>
 </head>
-<body>
-	<div id="wrap">
-		<!--#include file="/include/_header.html" -->
-		<div class="container">
-      
-    </div>
+<body class="login">
+	<div class="">
+		a
 	</div>
-<!--#include file="/include/_scripts.html" -->
+	<div class="login_outbox">
+		<section class="login_title">
+			<h1 class="login_title__h1">시스템 관리자 화면</h1>
+			<span class="login_title__txt">System admin Login</span>
+		</section>
+		<section class="login__form">
+			<div class="login__form__group">
+				<label for="" class="login__form__label">User name</label>
+				<input type="text" name="" id="" class="login__form__input">
+			</div>
+			<div class="login__form__group">
+				<label for="" class="login__form__label">Password</label>
+				<input type="password" name="" id="" class="login__form__input">
+			</div>
+			<div class="login__form__submit">
+				<div class="login__form__submit_item">
+					<input type="checkbox" name="" id="" class="login__form__submit_ck">
+					<label for="" class="login__form__submit_label">아이디저장</label>
+				</div>
+				<button type="button" class="login__form__submit_login">Login</button>
+			</div>
+		</section>
+	</div>
+	<!--#include file="/include/_scripts.html" -->
 </body>
 </html>

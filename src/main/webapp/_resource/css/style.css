@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 웹폰트 */
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; src: url(../../_resource/fonts/NotoSansKR-Light.woff2) format("woff2"), url(../../_resource/fonts/NotoSansKR-Light.woff) format("woff"), url(../../_resource/fonts/NotoSansKR-Light.otf) format("opentype"); }
+
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; src: url(../../_resource/fonts/NotoSansKR-Medium.woff2) format("woff2"), url(../../_resource/fonts/NotoSansKR-Medium.woff) format("woff"), url(../../_resource/fonts/NotoSansKR-Medium.otf) format("opentype"); }
+
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; src: url(../../_resource/fonts/NotoSansKR-Bold.woff2) format("woff2"), url(../../_resource/fonts/NotoSansKR-Bold.woff) format("woff"), url(../../_resource/fonts/NotoSansKR-Bold.otf) format("opentype"); }
+
+html, body { height: 100%; font-family: 'Noto Sans KR'; }
+
+[class^='icon_'] { display: inline-block; }
+
+.login { display: flex; flex-direction: column; background-color: #F3F3F3; text-align: center; }
+
+.login_outbox { display: flex; flex-direction: column; align-items: center; height: 100%; margin-top: 111px; }
+
+.login_title__h1 { font-size: 21px; line-height: 1.47; font-weight: 400; color: #666; }
+
+.login_title__txt { font-size: 14px; line-height: 1.42; font-weight: 400; color: #666; }
+
+.login__form { width: 450px; height: 250px; margin-top: 57px; padding: 54px 82px 0; background: #2D3161; box-sizing: border-box; }
+
+.login__form__group { display: flex; margin-bottom: 35px; }
+
+.login__form__label { width: 80px; text-align-last: left; font-size: 16px; line-height: 1.5; color: #fff; font-weight: 300; padding: 0 15px 0 0; }
+
+.login__form__input { width: 190px; border: solid #fff; color: #fff; border-width: 0 0 1px 0; margin-left: auto; background-color: transparent; font-weight: 300; font-size: 14px; line-height: 20px; }
+
+.login__form__submit { display: flex; margin-top: 43px; }
+
+.login__form__submit_item { display: flex; align-items: flex-end; }
+
+.login__form__submit_ck { width: 10px; height: 10px; border: 1px solid #fff; margin: 4px; }
+
+.login__form__submit_label { font-size: 14px; line-height: 1.42; font-weight: 300; color: #dcdcdc; }
+
+.login__form__submit_login { width: 120px; height: 40px; font-size: 16px; line-height: 1.5; font-weight: 300; border: 1px solid #fff; color: #fff; background-color: transparent; margin-left: auto; cursor: pointer; }
+
+.icon_check { background-image: url(../images/sprite/sprite_all.png); background-position: -69px 0px; width: 10px; height: 8px; }
+
+.icon_clear { background-image: url(../images/sprite/sprite_all.png); background-position: 0px 0px; width: 22px; height: 22px; }
+
+.icon_close_survey { background-image: url(../images/sprite/sprite_all.png); background-position: -47px 0px; width: 18px; height: 18px; }
+
+.icon_excel { background-image: url(../images/sprite/sprite_all.png); background-position: 0px -48px; width: 15px; height: 16px; }
+
+.icon_file01 { background-image: url(../images/sprite/sprite_all.png); background-position: -19px -48px; width: 9px; height: 10px; }
+
+.icon_file_add { background-image: url(../images/sprite/sprite_all.png); background-position: -42px -26px; width: 17px; height: 17px; }
+
+.icon_file_remove { background-image: url(../images/sprite/sprite_all.png); background-position: -21px -26px; width: 17px; height: 17px; }
+
+.icon_first { background-image: url(../images/sprite/sprite_all.png); background-position: -32px -48px; width: 10px; height: 9px; }
+
+.icon_last { background-image: url(../images/sprite/sprite_all.png); background-position: -46px -48px; width: 10px; height: 9px; }
+
+.icon_link_download { background-image: url(../images/sprite/sprite_all.png); background-position: 0px -26px; width: 17px; height: 18px; }
+
+.icon_next { background-image: url(../images/sprite/sprite_all.png); background-position: -69px -12px; width: 5px; height: 9px; }
+
+.icon_prev { background-image: url(../images/sprite/sprite_all.png); background-position: -69px -25px; width: 5px; height: 9px; }
+
+.icon_remove { background-image: url(../images/sprite/sprite_all.png); background-position: -26px 0px; width: 17px; height: 21px; }
+
+/*# sourceMappingURL=style.css.map */
