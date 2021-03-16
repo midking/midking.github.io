@@ -36,3 +36,8 @@ html, body { height: 100%; font-family: 'Noto Sans KR'; }
 
 [class^='icon_'] { display: inline-block; }
 
+.wrap{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
