@@ -26,9 +26,9 @@ html, body { height: 100%; font-family: 'Noto Sans KR'; }
 
 [class^='icon_'] { display: inline-block; }
 
-.login { display: flex; flex-direction: column; background-color: #F3F3F3; text-align: center; }
+.login { display: flex; flex-direction: column; align-items: center; height: 100%; padding-top: 111px; background-color: #F3F3F3; }
 
-.login_outbox { display: flex; flex-direction: column; align-items: center; height: 100%; margin-top: 111px; }
+.login_title { text-align: center; }
 
 .login_title__h1 { font-size: 21px; line-height: 1.47; font-weight: 400; color: #666; }
 
@@ -36,21 +36,25 @@ html, body { height: 100%; font-family: 'Noto Sans KR'; }
 
 .login__form { width: 450px; height: 250px; margin-top: 57px; padding: 54px 82px 0; background: #2D3161; box-sizing: border-box; }
 
-.login__form__group { display: flex; margin-bottom: 35px; }
+.login__form_item { display: flex; margin-bottom: 35px; }
 
-.login__form__label { width: 80px; text-align-last: left; font-size: 16px; line-height: 1.5; color: #fff; font-weight: 300; padding: 0 15px 0 0; }
+.login__form_label { width: 80px; text-align-last: left; font-size: 16px; line-height: 1.5; color: #fff; font-weight: 300; padding: 0 15px 0 0; }
 
-.login__form__input { width: 190px; border: solid #fff; color: #fff; border-width: 0 0 1px 0; margin-left: auto; background-color: transparent; font-weight: 300; font-size: 14px; line-height: 20px; }
+.login__form_id, .login__form_pw { width: 190px; border: solid #fff; color: #fff; border-width: 0 0 1px 0; margin-left: auto; background-color: transparent; }
 
-.login__form__submit { display: flex; margin-top: 43px; }
+.login__form_id { font-size: 14px; line-height: 20px; font-weight: 300; }
 
-.login__form__submit_item { display: flex; align-items: flex-end; }
+.login__form_pw { font-size: 20px; line-height: 20px; letter-spacing: 4px; }
 
-.login__form__submit_ck { width: 10px; height: 10px; border: 1px solid #fff; margin: 4px; }
+.login__form_submit { display: flex; margin-top: 43px; }
 
-.login__form__submit_label { font-size: 14px; line-height: 1.42; font-weight: 300; color: #dcdcdc; }
+.login__form_save__item { display: flex; align-items: flex-end; }
 
-.login__form__submit_login { width: 120px; height: 40px; font-size: 16px; line-height: 1.5; font-weight: 300; border: 1px solid #fff; color: #fff; background-color: transparent; margin-left: auto; cursor: pointer; }
+.login__form_save__ck { width: 10px; height: 10px; border: 1px solid #fff; margin: 4px; }
+
+.login__form_save__label { font-size: 14px; line-height: 1.42; font-weight: 300; color: #dcdcdc; }
+
+.login__form_submit__login { width: 120px; height: 40px; font-size: 16px; line-height: 1.5; font-weight: 300; border: 1px solid #fff; color: #fff; background-color: transparent; margin-left: auto; cursor: pointer; }
 
 .icon_check { background-image: url(../images/sprite/sprite_all.png); background-position: -69px 0px; width: 10px; height: 8px; }
 

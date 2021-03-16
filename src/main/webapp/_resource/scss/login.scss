@@ -1,15 +1,13 @@
 .login{
   display: flex;
-  flex-direction: column;
-  background-color: #F3F3F3;
-  text-align: center;
-}
-.login_outbox{
-  display: flex;
   flex-direction:column;
   align-items:center;
   height: 100%;
-  margin-top: 111px;
+  padding-top: 111px;
+  background-color: #F3F3F3;
+}
+.login_title{
+  text-align: center;
 }
 .login_title__h1{
   font-size: 21px;
@@ -32,11 +30,11 @@
   background: #2D3161;
   box-sizing: border-box;
 }
-.login__form__group{
+.login__form_item{
   display: flex;
   margin-bottom: 35px;
 }
-.login__form__label{
+.login__form_label{
   width: 80px;
   text-align-last: left;
   font-size: 16px;
@@ -45,39 +43,47 @@
   font-weight: 300;
   padding: 0 15px 0 0;
 }
-.login__form__input{
+.login__form_id,
+.login__form_pw{
   width: 190px;
   border:solid #fff;
   color: #fff;
   border-width:0 0 1px 0;
   margin-left: auto;
   background-color: transparent;
-  font-weight: 300;
+}
+.login__form_id{
   font-size: 14px;
   line-height: 20px;
+  font-weight: 300;
+}
+.login__form_pw{
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 4px;
 }
 
-.login__form__submit{
+.login__form_submit{
   display: flex;
   margin-top: 43px;
 }
-.login__form__submit_item{
+.login__form_save__item{
   display: flex;
   align-items: flex-end;
 }
-.login__form__submit_ck{
+.login__form_save__ck{
   width: 10px;
   height: 10px;
   border: 1px solid #fff;
   margin: 4px;
 }
-.login__form__submit_label{
+.login__form_save__label{
   font-size: 14px;
   line-height: 1.42;
   font-weight: 300;
   color: #dcdcdc;
 }
-.login__form__submit_login{
+.login__form_submit__login{
   width: 120px;
   height: 40px;
   font-size: 16px;

@@ -15,32 +15,35 @@
 	<!-- stylesheet : @import 시키지 않는게 성능상 좋습니다. -->
 	<link rel="stylesheet" href="../../_resource/css/style.css">
 	<!-- //stylesheet -->
-	<title>login</title>
+<title>login</title>
 </head>
-<body class="login">
-	<div class="">
-		a
-	</div>
-	<div class="login_outbox">
+<body>
+			<!-- header -->
+		<div id="header">
+			공통 추후 작업
+		</div>
+		<!-- //header -->
+
+	<div class="login">
 		<section class="login_title">
 			<h1 class="login_title__h1">시스템 관리자 화면</h1>
 			<span class="login_title__txt">System admin Login</span>
 		</section>
 		<section class="login__form">
-			<div class="login__form__group">
-				<label for="" class="login__form__label">User name</label>
-				<input type="text" name="" id="" class="login__form__input">
+			<div class="login__form_item">
+				<label for="" class="login__form_label">User name</label>
+				<input type="text" name="" id="" class="login__form_id">
 			</div>
-			<div class="login__form__group">
-				<label for="" class="login__form__label">Password</label>
-				<input type="password" name="" id="" class="login__form__input">
+			<div class="login__form_item">
+				<label for="" class="login__form_label">Password</label>
+				<input type="password" name="" id="" class="login__form_pw">
 			</div>
-			<div class="login__form__submit">
-				<div class="login__form__submit_item">
-					<input type="checkbox" name="" id="" class="login__form__submit_ck">
-					<label for="" class="login__form__submit_label">아이디저장</label>
+			<div class="login__form_submit">
+				<div class="login__form_save__item">
+					<input type="checkbox" name="" id="" class="login__form_save__ck">
+					<label for="" class="login__form_save__label">아이디저장</label>
 				</div>
-				<button type="button" class="login__form__submit_login">Login</button>
+				<button type="button" class="login__form_submit__login">Login</button>
 			</div>
 		</section>
 	</div>
